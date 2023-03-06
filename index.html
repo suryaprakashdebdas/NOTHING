@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Terms and Conditions@NOTHING</title>
+	<style>
+		body {
+			background-color: #ffc0cb; /* mix of red, green, and pink */
+			color: #800080; /* half purple */
+		}
+	</style>
+</head>
+<body>
+	<div id="welcomePopup" style="display:none;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);background-color:#fff;padding:20px;border-radius:10px;text-align:center;">
+		<h2>Welcome!TO OUR @NOTHING GROUP (NOTHING MEANS NOTHING )</h2>
+		<p>#RIP ALL CLASS 9TH BOOKS ESPICALLY MATHS AND SCIENCE . Please click the button below to continue.JUST DO IT @AYUSH @ ARYAN @ PRITHWI.</p>
+		<button onclick="hidePopup()">Continue</button>
+	</div>
+	<script>
+		function showPopup() {
+			document.getElementById("welcomePopup").style.display = "block";
+		}
+		function hidePopup() {
+			document.getElementById("welcomePopup").style.display = "none";
+		}
+	</script>
+	<h1>Terms and Conditions</h1>
+	<p>By entering this group, you agree to the following terms and conditions:</p>
+	<ol>
+		<li>No bad words are allowed to be used in the group.</li>
+		<li>Only those who score well in science or math are allowed to enter the group.</li>
+	</ol>
+	<form action="https://forms.gle/r57mkBsuGzv42Jr59" method="get">
+		<input type="checkbox" name="agree" required> I agree to the terms and conditions<br>
+		<input type="submit" value="Submit">
+	</form>
+	<script>
+		showPopup();
+	</script>
+</body>
+</html>
